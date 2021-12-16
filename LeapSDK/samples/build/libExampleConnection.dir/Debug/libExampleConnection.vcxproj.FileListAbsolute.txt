@@ -1,0 +1,1 @@
+C:\Users\malco\OneDrive\Bureau\Finger_robot_code\LeapSDK\samples\build\libExampleConnection.dir\Debug\libExampleConnection.lib

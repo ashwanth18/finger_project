@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\malco\OneDrive\Bureau\Finger_robot_code\LeapSDK\samples\leapc_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\malco\OneDrive\Bureau\Finger_robot_code\LeapSDK\samples\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FC3DE841-8DBC-30CA-81B9-AE885D47DB9C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

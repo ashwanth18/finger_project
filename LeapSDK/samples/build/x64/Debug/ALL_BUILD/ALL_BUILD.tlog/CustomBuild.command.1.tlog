@@ -1,0 +1,10 @@
+^C:\USERS\MALCO\ONEDRIVE\BUREAU\FINGER_ROBOT_CODE\LEAPSDK\SAMPLES\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/malco/OneDrive/Bureau/Finger_robot_code/LeapSDK/samples -BC:/Users/malco/OneDrive/Bureau/Finger_robot_code/LeapSDK/samples/build --check-stamp-file C:/Users/malco/OneDrive/Bureau/Finger_robot_code/LeapSDK/samples/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

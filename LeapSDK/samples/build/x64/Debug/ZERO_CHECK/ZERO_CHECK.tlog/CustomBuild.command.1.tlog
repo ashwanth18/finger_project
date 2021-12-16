@@ -1,0 +1,10 @@
+^C:\USERS\MALCO\ONEDRIVE\BUREAU\FINGER_ROBOT_CODE\LEAPSDK\SAMPLES\BUILD\CMAKEFILES\EC75039EFB9AAF5870574FCE1E933F96\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/malco/OneDrive/Bureau/Finger_robot_code/LeapSDK/samples -BC:/Users/malco/OneDrive/Bureau/Finger_robot_code/LeapSDK/samples/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/malco/OneDrive/Bureau/Finger_robot_code/LeapSDK/samples/build/leapc_example.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

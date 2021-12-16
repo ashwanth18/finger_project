@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\malco\OneDrive\Bureau\Finger_robot_code\LeapSDK\samples\CallbackSample.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\malco\OneDrive\Bureau\Finger_robot_code\LeapSDK\samples\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\malco\OneDrive\Bureau\Finger_robot_code\LeapSDK\samples\build\libExampleConnection.dir\$(Configuration)\ExampleConnection.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{FC8BA031-3D3A-36E4-BDF0-0AEF4CE766AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FC3DE841-8DBC-30CA-81B9-AE885D47DB9C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+cl /EHsc /I include src\Sample.cpp /link lib\LeapC.lib /OUT:bin\Sample.exe
