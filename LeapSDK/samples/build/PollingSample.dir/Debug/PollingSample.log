@@ -1,3 +1,1 @@
-﻿  PollingSample.c
-C:\Users\malco\OneDrive\Bureau\Finger_robot_code\LeapSDK\samples\PollingSample.c(24,30): warning C4133: 'fonction' : types incompatibles - de 'wchar_t [20]' à 'LPCSTR'
-  PollingSample.vcxproj -> C:\Users\malco\OneDrive\Bureau\Finger_robot_code\LeapSDK\samples\build\Debug\PollingSample.exe
+﻿  PollingSample.vcxproj -> C:\Users\malco\OneDrive\Bureau\Finger_robot_code\LeapSDK\samples\build\Debug\PollingSample.exe
